@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ecole.heuresuppl">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HeureSuppl"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".HeureCompActivity"></activity>
+        <activity android:name=".BulletinDePaieActivity" />
+        <activity android:name=".Professeur.Modification_ProfesseurActivity" />
+        <activity android:name=".Volumehoraire.List_VolumehoraireActivity" />
+        <activity android:name=".Volumehoraire.Modif_VolumehoraireActivity" />
+        <activity android:name=".Professeur.List_ProfesseurActivity" />
+        <activity android:name=".Matiere.List_MatiereActivity" />
+        <activity android:name=".Matiere.Modif_Matiere" />
+        <activity android:name=".VolumehoraireActivity" />
+        <activity android:name=".MatiereActivity" />
+        <activity android:name=".professeur_activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

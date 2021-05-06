@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:background="#7CB342">
+
+        <Button
+            android:id="@+id/retour_btn"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="106dp"
+            android:layout_height="71dp"
+            android:backgroundTint="#7CB342"
+            android:text="retour"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.545" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="561dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="360dp"
+            android:layout_height="72dp"
+            android:textColorHint="#FFFFFF"
+            android:visibility="visible"
+            app:boxStrokeColor="#FFFFFF"
+            app:endIconTint="#7CB342"
+            app:helperTextTextColor="#FFFFFF"
+            app:hintTextColor="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.167">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/matriculeProf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#7CB342"
+                android:enabled="false"
+                android:hint="Numéro matricule"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF"
+                android:visibility="visible" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="361dp"
+            android:layout_height="72dp"
+            android:textColorHint="#FFFFFF"
+            app:boxStrokeColor="#FFFFFF"
+            app:endIconTint="#FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.327">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/new_nom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#7CB342"
+                android:hint="Nom"
+                android:textColor="#FFFFFF"
+                android:textColorHighlight="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textColorLink="#FFFFFF" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/valider_btn"
+            android:layout_width="130dp"
+            android:layout_height="48dp"
+            android:backgroundTint="#7CB342"
+            android:text="Valider"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.911"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:background="#7CB342">
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
